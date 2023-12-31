@@ -1,0 +1,41 @@
+.Pages {
+  display: none;
+  font-family: monospace;
+}
+#output {
+  white-space: pre-wrap;
+}
+#input {
+  border: none;
+  outline: none;
+  width: 70vw;
+  font-family: monospace;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: greenyellow;
+}
+
+.RED {
+  color: #ff2400;
+}
+.GREEN {
+  color: #50c878;
+}
+.Turquoise {
+  color: #ef3340;
+}
+.BLUE {
+  color: #3769ff;
+}
+.GOLD {
+  color: #ffd700;
+}
+.PURPLE {
+  color: #be0bbe;
+}
+.TEAL {
+  color: #ff7f50;
+}
