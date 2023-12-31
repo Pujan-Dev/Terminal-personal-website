@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#main {
+    padding: 20px 0px 0px 40px;
+
+}
+
+#GRB {
+    padding: 1.5px;
+    font-size: larger;
+    color: black;
+    background-color: aliceblue;
+}
+
+#GRB_str {
+    padding: 20PX 0PX;
+}
+
+
+#grbanm {
+    display: flex;
+}
+
+#load_grb {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply a delay to the animation for each load_grb label */
+#load_grb:nth-child(1) {
+    animation-delay: 0s;
+}
+
+#load_grb:nth-child(2) {
+    animation-delay: 1s;
+}
+
+#load_grb:nth-child(3) {
+    animation-delay: 2s;
+}
